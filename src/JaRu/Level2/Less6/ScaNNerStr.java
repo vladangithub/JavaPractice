@@ -10,7 +10,7 @@ package JaRu.Level2.Less6;
 
 import java.util.Scanner;
 
-public class ScaNNer {
+public class ScaNNerStr {
     public static void main(String[] args) {
         Scanner sc1 = new Scanner(System.in);
         String s1 = sc1.nextLine();
