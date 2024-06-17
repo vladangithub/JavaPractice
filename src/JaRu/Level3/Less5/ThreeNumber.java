@@ -9,9 +9,9 @@ public class ThreeNumber {
         int num2 = scanner.nextInt();
         int num3 = scanner.nextInt();
 
-        boolean q1 = (a == b);
-        boolean q2 = (a == c);
-        boolean q3 = (b == c);
+        boolean q1 = (num1 == num2);
+        boolean q2 = (num1 == num3);
+        boolean q3 = (num2 == num3);
 
     }
 }
