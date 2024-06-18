@@ -5,13 +5,18 @@ import java.util.Scanner;
 public class ThreeNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int num1 = scanner.nextInt();
-        int num2 = scanner.nextInt();
-        int num3 = scanner.nextInt();
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
 
-        boolean q1 = (num1 == num2);
-        boolean q2 = (num1 == num3);
-        boolean q3 = (num2 == num3);
-
+        if ( a == b && b == c) {
+            System.out.println( a + " " + b + " " + c);
+        } else  if (a == b){
+            System.out.println(a + " " + b);
+        } else if (b == c) {
+            System.out.println(b + " " + c);
+        } else if (a == c) {
+            System.out.println(a + " " + c);
+        }
     }
 }
