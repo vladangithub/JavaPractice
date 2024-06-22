@@ -14,16 +14,16 @@ package JaRu.Lev4.Less4;
 public class Continue100 {
     public static void main(String[] args) {
         int i = 1;
-        int sum = 0;
+        int summmm = 0;
         while (i <= 100) {
             if (i % 3 == 0) {
                 i++;
                 continue;
             }
-            sum = sum + i;
+            summmm = summmm + i;
             i++;
         }
 
-        System.out.println(sum);
+        System.out.println(summmm);
     }
 }
