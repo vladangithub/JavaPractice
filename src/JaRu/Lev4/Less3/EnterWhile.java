@@ -52,9 +52,10 @@ public class EnterWhile {
         int sum = 0;
         while (scanner.hasNextInt()) {
             sum += scanner.nextInt();
-            System.out.println(sum);
+//            System.out.println(sum); вот в чем ошибка, считал после каждой итерации
 //            scanner.close();
         }
+        System.out.println(sum);
 
     }
 }
