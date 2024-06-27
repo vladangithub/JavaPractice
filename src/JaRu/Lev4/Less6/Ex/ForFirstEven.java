@@ -1,4 +1,4 @@
-package JaRu.Lev4.Less6.Exersize;
+package JaRu.Lev4.Less6.Ex;
 
 /*
 Напиши программу, в которой с помощью цикла for на экран будут выведены чётные числа от 1 до 15.
